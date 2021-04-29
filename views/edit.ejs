@@ -1,0 +1,16 @@
+<%- include("partials/header"); -%>
+
+  <h1>Edit</h1>
+
+  <form action="/edit/<%=title%>" method="post">
+    <div class="form-group">
+      <label>Title</label>
+      <input id="title" type="text" class="form-control title" name="title" value="<%=title%>" autofocus
+        autocomplete="off">
+      <label>Post</label>
+      <textarea class="form-control blog" rows="5" name="content" autocomplete="off"><%=content%></textarea>
+    </div>
+    <button type="submit" name="btn" class="btn btn-primary">Edit</button>
+  </form>
+
+  <%- include("partials/footer"); -%>

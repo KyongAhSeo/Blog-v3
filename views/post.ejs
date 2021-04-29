@@ -1,0 +1,23 @@
+<%- include("partials/header"); -%>
+
+  <h1>
+    <%= title %>
+  </h1>
+  <p>
+    <%= time %>
+  </p>
+  <p>
+    <%= content %>
+  </p>
+  <div class="post-btn">
+    <button class="btn btn-success" type="submit" name="editBtn" onclick="location.href='/edit/<%=title%>';">
+      <i class="far fa-edit"> Edit</i>
+    </button>
+    <form class="post-btn" action="/delete" method="POST">
+      <button class="btn btn-primary delete-btn" type="submit" name="deleteBtn" value="<%=title%>">
+        <i class="far fa-trash-alt fa-sm"> Delete</i>
+      </button>
+    </form>
+  </div>
+
+  <%- include("partials/footer"); -%>
