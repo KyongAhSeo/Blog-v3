@@ -3,6 +3,14 @@
 
 Javascript, Node.js, Express.js, MongDB, Mongoose를 사용해 개발되었으며 Heroku로 배포 됩니다.
 
+* Node.js(Server-Side)
+* Express js(Node Framework)
+* Npm Modules
+  1. EJS
+  2. bodyParser
+  3. lodash
+
+
 ![2021-04-29](https://user-images.githubusercontent.com/73506253/116570013-dddc3a80-a944-11eb-958d-a89b82c20442.png)
 
 # Website
